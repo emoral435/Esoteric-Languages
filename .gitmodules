@@ -1,0 +1,6 @@
+[submodule "SuperMarioLang"]
+	path = SuperMarioLang
+	url = git@github.com:charliealejo/SuperMarioLang.git
+[submodule "MarioLANG"]
+	path = MarioLANG
+	url = git@github.com:tomsmeding/MarioLANG.git
