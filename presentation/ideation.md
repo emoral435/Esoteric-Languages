@@ -8,7 +8,7 @@
 • If appropriate, is the language static or dynamic? Explain why. ✅
 • How does this language compare to the ones we have learned (SQL, Python, F#, 
 Prolog and Go)? What are the similarities and differences? ✅
-• How does it handle memory? 
+• How does it handle memory? ✅
 • Show a short but meaningful example (more than “Hello World!”). Live coding 
 would be ideal for this, but is not required.
 
@@ -17,7 +17,7 @@ would be ideal for this, but is not required.
 • Starlogs to end off the presentation ✅
 • Truttle1 videos ✅
 • A fun mario speedrunning reference for all the Mario fans
-• GIFS!!
+• GIFS!! 
 
 ## Answers to the above questions:
 • What is an esoteric language?
@@ -80,6 +80,10 @@ would be ideal for this, but is not required.
 	this classifies MarioLANG as a statically typed language.
 	* Perhaps in the future, MarioLANG 2.0 can support items that change the state to store multiple or different types on the tape.
 
+• How does it handle memory?
+	* MarioLANG supports having a dynamic array of integers, also known as a tape.
+	* This array can be either on the heap or on the stack. For most cases, since there is only one state array, stack-overflow problems are not a concern.
+	* In the compiler that I found and that is included in this GitHub repository, we use a vector that is stored in the heap.
 
 • Thank you! Link to references and GitHub repository
 * [Starlogs](https://starlogs.dev/emoral435/Esoteric-Languages)
