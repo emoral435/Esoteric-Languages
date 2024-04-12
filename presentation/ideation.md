@@ -4,10 +4,10 @@
 • Give a brief overview of the language. ✅
 • Who designed the language and why? ✅
 • What does the syntax look like? ✅
-• What programming paradigm(s) does the language implement? 
-• If appropriate, is the language static or dynamic? Explain why. 
+• What programming paradigm(s) does the language implement? ✅
+• If appropriate, is the language static or dynamic? Explain why. ✅
 • How does this language compare to the ones we have learned (SQL, Python, F#, 
-Prolog and Go)? What are the similarities and differences? 
+Prolog and Go)? What are the similarities and differences? ✅
 • How does it handle memory? 
 • Show a short but meaningful example (more than “Hello World!”). Live coding 
 would be ideal for this, but is not required.
@@ -32,6 +32,8 @@ would be ideal for this, but is not required.
 
 • Give a brief overview of the language.
 	* In this presentation, we will be explore MarioLANG.
+		- Picture of MarioLANG code
+		- Clip of mario being dramatic to the code [found here](https://youtu.be/XymIOAuCCHw?si=IaTZ_ikwBqlgwMDd&t=15)
 		- The language is composed of characters that make the source code look like a Mario level stage!
 		- Mario himself represents the instruction pointer. Each character then either modifies Mario, the instruction pointer,
 		or modifies a piece of memory that we can later use ourself to print to the console!
@@ -62,6 +64,22 @@ would be ideal for this, but is not required.
 	* MarioLANG is imperative by default. Each command within its syntax does one thing and one thing precisely. Every step is defined and definite, and the order of operations is decided by the programmer, making it imperative
 	* To derive this language further, MarioLANG is a procedural language. Once we start the program, each time we hit an ASCII character representing Mario's world, we start a procedure that can change memory, or state.
 		- Show picture of JavaScript from DEV article 
+	* MarioLANG is also an esoteric programming language. It was made to just represent Mario's world via ASCII characters, and is actually quite fun when you get the hang of it.
+
+• How does this language compare to the ones we have learned (SQL, Python, F#, Prolog and Go)? What are the similarities and differences?
+	* MarioLANG under the hood still uses memory to store state and information, just like the other languages.
+	* MarioLANG can be interpreted, just as Python is interpreted, and at its core, MarioLANG files have to adhere to certain rules to make it syntactically correct.
+	* MarioLANG does not follow and support a BNF structure, instead, opting to simply be a storage management system.
+	* No known company uses MarioLANG in production... yet.
+	* MarioLANG does abide by programming paradigm conventions, just as the rest of the other languages we have learned do.
+	* MarioLANG has no way to define new functions, new states that have not been pre-defined, and also does not support concurrency or the usage of external libraries.
+
+• If appropriate, is the language static or dynamic? Explain why.
+	* We are only able to store one state within the game, and that is the state in our tape / array. 
+	* This state can only be an integer, so technically, since we cannot change the type of our state container during compilation,
+	this classifies MarioLANG as a statically typed language.
+	* Perhaps in the future, MarioLANG 2.0 can support items that change the state to store multiple or different types on the tape.
+
 
 • Thank you! Link to references and GitHub repository
 * [Starlogs](https://starlogs.dev/emoral435/Esoteric-Languages)
