@@ -4,7 +4,7 @@
 
 [//]: # "catch"
 <p align="center">
-   A GitHub repository dedicated towards outlining what an esoteric language is, information on the esoteric language of my choice, <a href="https://esolangs.org/wiki/MarioLANG">MarioLANG</a>, and examples of MarioLang!
+   A GitHub repository dedicated towards outlining what an esoteric language is, information on the esoteric language of my choice, <a href="https://esolangs.org/wiki/MarioLANG">MarioLANG</a>, and examples of MarioLANG!
 </p>
 
 ## Why is this so awesome? 🤔💭
@@ -23,7 +23,21 @@ Visit the [esoteric wiki](https://esolangs.org/wiki/Main_Page) in order to see m
 * List and examples of esoteric programming languages
 And more!
 
+## Extra information... 👀
+> [!NOTE]\
+> Included in this repository is a submodule aided to help interpret MarioLANG files. Built with C++, the interpreter also builds upon the standard
+> MarioLANG language by allowing real-time evaluation of the code to the console using ANSI colors.
+>
+> [Link to the original repository can be found here](https://github.com/tomsmeding/MarioLANG)
+>
+> To use the repository, make sure to run the following command in your terminal in the projects root directory:
+`./update.sh`
+
+* [Star Logs 🚀](https://github.com/emoral435/Esoteric-Languages)
+
 ## Get in touch 💬
 If you liked what you saw, feel free to contact me! email: emora38@uic.edu
 
-[Star Logs 🚀](https://github.com/emoral435/Esoteric-Languages)
+
+
+
