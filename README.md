@@ -16,6 +16,11 @@
 * This repository is part of my universities class, [CS 341](https://catalog.uic.edu/search/?P=CS%20341). The goal of the class is to introduce its students a wide variety of programming paradigms, languages, and language design choices.
 * This repository serves as a central hub to store and share information about the esoteric langauge of choice that I decided to research and present!
 
+## How to run MarioLANG
+Wondering how to become the world's most popular and bestest MarioLANG developer? Look no further!
+* [Use this online IDE to run MarioLANG](https://tio.run/#mariolang)
+* You also have the option to use the interpreter in the MarioLANG submodule! 
+
 ## The Wiki 📕
 Visit the [esoteric wiki](https://esolangs.org/wiki/Main_Page) in order to see more documentation about...
 * What an esoteric language even is
@@ -33,7 +38,7 @@ And more!
 > To use the repository, make sure to run the following command in your terminal in the projects root directory:
 `./update.sh`
 
-* [Star Logs 🚀](https://github.com/emoral435/Esoteric-Languages)
+* [Star Logs 🚀](https://starlogs.dev/emoral435/Esoteric-Languages)
 
 ## Get in touch 💬
 If you liked what you saw, feel free to contact me! email: emora38@uic.edu
