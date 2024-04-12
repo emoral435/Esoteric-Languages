@@ -1,1 +1,40 @@
 # This file is used for the ideation of the slides used for this project.
+
+## At minimum, the presentation should address the following: 
+• Give a brief overview of the language.
+• Who designed the language and why? 
+• What does the syntax look like? 
+• What programming paradigm(s) does the language implement? 
+• If appropriate, is the language static or dynamic? Explain why. 
+• How does this language compare to the ones we have learned (SQL, Python, F#, 
+Prolog and Go)? What are the similarities and differences? 
+• How does it handle memory? 
+• Show a short but meaningful example (more than “Hello World!”). Live coding 
+would be ideal for this, but is not required.
+
+## Things I also want to add in order to make the presentation fun:
+• What is an esoteric language?
+• Starlogs to end off the presentation
+• Truttle1 videos
+• A fun mario speedrunning reference for all the Mario fans
+• GIFS!!
+
+## Answers to the above questions:
+• What is an esoteric language?
+	* Most people are used to programming languages that can efficiently solve problems related to real world industries
+	or are used to produce meaningful impact within communities.
+		- JavaScript, C++, and Python are the programming languages that usually come first in mind
+	* Esoteric languages take a different approach - they explore the creative representation that programming languages can embark.
+	They are not made to be efficient, and are usually made up as a joke. However, through these languages, we as programmers
+	can have fun creating parody languages or even create languages as a form of creatistic interpretations, such as Piet, a programming language made to interpret pixels as an encoded piece of code.
+		- show picture of Piet 
+• Give a brief overview of the language.
+	* In this presentation, we will be explore MarioLANG.
+		- Created by Wh1teWolf, a developer from Norway who has also worked with Befunge in the past
+			(https://esolangs.org/wiki/User:Wh1teWolf)
+
+
+## References
+- [Wiki](https://esolangs.org/wiki/Main_Page)
+
+
